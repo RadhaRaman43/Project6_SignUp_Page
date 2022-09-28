@@ -5,30 +5,180 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        *{
+               margin: 0px;
+               padding: 0px;
+               
+                color: yellow;     
+
+        }
+       
+    .ramans{
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        color: white;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: large;
+       
+        
+    }
+
+    .raman{
+               width: 100%;
+               height: 500px;
+
+
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .radha{
+
+        width: 100%;
+        height: 50px;
+        background-color: orange;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+  
+
+  
+
+    </style>
 </head>
 <body>
-    <h1 align="center">Employee Form</h1>
-<form align="center">
-    Enter your name:<input type="textarea"><br><br>
     
-    Enter your department:<input type="text"><br><br>
-    Tell us a little about yourself:
-    <textarea cols="50" rows="5" value"textarea"></textarea>
-<br><br>
-    Do you exercise at home?<input type="radio">yes
-     <input type="radio">No<br><br>
-    <p>How do you like to read about your favorite topics</p>
-    <input type="checkbox">Books 
-    <input type="checkbox">Online resources 
-    <input type="checkbox">Phone apps
-    <input type="checkbox">Magazines<br><br>
-    What genre of movies do you like?
-    <select> <option>comedy</option></select><br><br>
-</form>
-    <form align="center">
-    <input type="submit">
-    </form>
-    
+<div class="ramans">
+   <div>Sign Up</div>
+</div>
 
+
+<div class="raman"> 
+    <form class="ram" >
+
+    <table style="height: 450px;">
+    <tr>
+       <td>
+        First name
+       </td>
+       <td>
+        <input type="text"><br>
+       </td>
+    </tr>
+
+
+    <tr>
+        <td>
+         Last name
+        </td>
+        <td>
+         <input type="text">
+        </td>
+     </tr>
+
+     <tr>
+        <td>
+         Date of birth
+        </td>
+        <td>
+         <input type="date">
+        </td>
+     </tr>
+
+
+     <tr>
+        <td>
+         Gender
+        </td>
+        <td>
+            <label for="male">gender</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        </td>
+
+
+
+        <tr>
+            <td>
+             country
+            </td>
+            <td>
+             <input type="country">
+            </td>
+         </tr>
+    
+     </tr>
+
+
+
+     <tr>
+        <td>
+         email
+        </td>
+        <td>
+         <input type="email">
+        </td>
+     </tr>
+
+
+     <tr>
+        <td>
+        phone
+        </td>
+        <td>
+         <input type="number">
+        </td>
+     </tr>
+
+     <tr>
+        <td>
+        password
+        </td>
+        <td>
+         <input type="password">
+        </td>
+     </tr>
+
+
+     <tr>
+        <td>
+         confirm password
+        </td>
+        <td>
+         <input type="password">
+        </td>
+     </tr>
+
+     <td></td>
+    <td>
+     <input type="checkbox" id="draw" name="hobiesss"> I Agree to the Tems to use<br><br>
+     
+    </td>
+    
+    </table>
+ 
+
+   
+
+
+</form>
+
+
+
+</div>
+
+
+<div class="radha">
+
+    <div  style="color: green;" ><input type="submit" class="ram">
+</div>
+<div style="color: red;"><input type="button" value="cancel"></div>
 </body>
 </html>
